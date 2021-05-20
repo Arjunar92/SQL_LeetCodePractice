@@ -1,3 +1,5 @@
+#Write a SQL query to find the median salary of each company
+
 
 with temp as (
 select id, company , salary, 
@@ -22,3 +24,5 @@ rk in ((case
                when MOD(ct,2)=0 then (ct/2)+1
                else 0 
                end) )
+
+
