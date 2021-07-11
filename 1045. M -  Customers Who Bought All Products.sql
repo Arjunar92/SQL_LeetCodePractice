@@ -4,10 +4,7 @@
 
 #The query result format is in the following example:
 
- 
 
-
-# Write your MySQL query statement below
 
 select customer_id from 
 (
