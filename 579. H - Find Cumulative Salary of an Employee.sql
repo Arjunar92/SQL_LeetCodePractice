@@ -4,7 +4,6 @@
 
 #The result should be displayed by 'Id' ascending, and then by 'Month' descending.
 
-# Write your MySQL query statement below
 
 with temp as(
 select id , month , salary , rnk from (
