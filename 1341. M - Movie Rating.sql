@@ -1,4 +1,4 @@
-#Find the name of the user who has rated the greatest number of movies.
+#Find the name of the user who has rated the greatest number of movies
 #In case of a tie, return lexicographically smaller user name.
 
 #Find the movie name with the highest average rating in February 2020.
