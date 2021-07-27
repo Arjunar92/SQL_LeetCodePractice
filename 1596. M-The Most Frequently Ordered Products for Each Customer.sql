@@ -3,8 +3,6 @@
 #The result table should have the product_id and product_name for each customer_id who ordered at least one order. Return the result table in any order.
 
 
-# Write your MySQL query statement below
-
 with temp as (
 select customer_id , product_id  , count(product_id) as freq
 from orders 
