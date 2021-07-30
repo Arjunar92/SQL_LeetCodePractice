@@ -1,6 +1,6 @@
 #The Employee table holds all employees including their managers. Every employee has an Id, and there is also a column for the manager Id.
 
-#Given the Employee table, write a SQL query that finds out managers with at least 5 direct report. For the above table, your SQL query should return:
+#Given the Employee table, write a SQL query that finds out managers with at least 5 direct report. For the above table, your SQL query should return
 
 
 with temp as
