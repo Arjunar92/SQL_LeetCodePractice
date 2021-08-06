@@ -3,8 +3,6 @@
 #Return the result table sorted by customer_name in ascending order and in case of a tie by the customer_id in ascending order. If there still a tie, order them by the order_date in descending order.
 
 
-# Write your MySQL query statement below
-
 
  
 select name as customer_name , b.customer_id , order_id , order_date from (
